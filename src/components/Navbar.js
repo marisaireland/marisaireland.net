@@ -3,11 +3,24 @@ import data from "../data.js";
 import logo from "../assets/logo.png";
 
 const Navbar = () => {
+  function handleClick(e) {
+    const burger = document.getElementById('navbarBurger');
+    burger.classList.toggle('is-active');
+
+    const menu = document.getElementById('navbarMenu');
+    menu.classList.toggle('is-active');
+  }
+
   return (
     <nav className="navbar is-spaced is-fixed-top has-background-transparent" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <a className="navbar-item" href="/">
           <img src={logo} alt="Marisa Ireland home" />
+        </a>
+        <a id="navbarBurger" role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu" onClick={handleClick}>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
         </a>
       </div>
       <div id="navbarMenu" className="navbar-menu">
