@@ -23,7 +23,7 @@ const data = {
     {
       title: "Vue Bulma Form",
       text: "A Vue.js plugin for HTML form components styled with the CSS framework Bulma.",
-      url: "https://rithmatist.herokuapp.com",
+      url: "https://github.com/marisaireland/vue-bulma-form",
     },
   ],
 };
