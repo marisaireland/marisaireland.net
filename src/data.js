@@ -20,6 +20,11 @@ const data = {
       text: "An online multiplayer drawing game based on the Brandon Sanderson novel.",
       url: "https://rithmatist.herokuapp.com",
     },
+    {
+      title: "Vue Bulma Form",
+      text: "A Vue.js plugin for HTML form components styled with the CSS framework Bulma.",
+      url: "https://rithmatist.herokuapp.com",
+    },
   ],
 };
 
